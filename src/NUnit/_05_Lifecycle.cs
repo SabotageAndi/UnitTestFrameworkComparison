@@ -18,7 +18,7 @@ public class AssemblyLifecylce
 
 namespace NUnitProject
 {
-    public class _04_Lifecycle
+    public class _05_Lifecycle
     {
         [OneTimeSetUp]
         public void ClassInitialize()

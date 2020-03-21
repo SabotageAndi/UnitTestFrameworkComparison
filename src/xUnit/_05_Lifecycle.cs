@@ -1,15 +1,14 @@
-﻿
-using System;
+﻿using System;
 using Xunit;
 
-namespace MSTestProject
+namespace xUnitProject
 {
-    public class _04_Lifecycle : IDisposable, IClassFixture<LifecycleClassFixture>
+    public class _05_Lifecycle : IDisposable, IClassFixture<LifecycleClassFixture>
     {
         //public static void AssemblyInitialize()
         //{ }
 
-        public _04_Lifecycle()
+        public _05_Lifecycle()
         {
             //test initialization
         }

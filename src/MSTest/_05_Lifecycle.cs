@@ -3,14 +3,14 @@
 namespace MSTestProject
 {
     [TestClass]
-    public class _04_Lifecycle
+    public class _05_Lifecycle
     {
         [AssemblyInitialize]
         public static void AssemblyInitialize(TestContext testContext)
         { }
 
         [ClassInitialize]
-        public void ClassInitialize(TestContext testContext)
+        public static void ClassInitialize(TestContext testContext)
         { }
         
         [TestInitialize]
@@ -26,7 +26,7 @@ namespace MSTestProject
         {}
 
         [ClassCleanup]
-        public void ClassCleanup()
+        public static void ClassCleanup()
         { }
 
         [AssemblyCleanup]
